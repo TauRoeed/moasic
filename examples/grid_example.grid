@@ -1,0 +1,12 @@
+# Example anchor grid for anchored_mosaic.py
+# No universal .grid standard was found in this repo; adapt grid_parser.py if your
+# files differ. This example uses comment headers plus one line per image.
+#
+# crs: EPSG:32636
+# units: projected
+#
+# Format: filename  x_tl  y_tl  x_tr  y_tr  x_br  y_br  x_bl  y_bl
+# Corners follow image pixel corners: (0,0), (w-1,0), (w-1,h-1), (0,h-1)
+
+tile_001.tif 500000.00 4100100.00 500050.00 4100100.00 500050.00 4100050.00 500000.00 4100050.00
+tile_002.tif 500040.00 4100100.00 500090.00 4100100.00 500090.00 4100050.00 500040.00 4100050.00
